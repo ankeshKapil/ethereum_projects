@@ -74,3 +74,11 @@ Rinkeby	test network	https://rinkeby.infura.io/Lfuh9jJqfCoCrHQybdWb
 IPFS	gateway	https://ipfs.infura.io
 
 npm install --save truffle-hdwallet-provider
+
+
+
+useful links
+https://etherscan.io/chart/blocktime
+http://rinkeby-faucet.com/
+http://remix.ethereum.org/
+https://iancoleman.io/bip39/
