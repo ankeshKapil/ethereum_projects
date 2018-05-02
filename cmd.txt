@@ -1,0 +1,76 @@
+G:\>mkdir ethereum_projects
+
+G:\>cd ethereum_projects
+
+G:\ethereum_projects>mkdir inbox
+
+G:\ethereum_projects>cd inbox
+
+G:\ethereum_projects\inbox>npm init
+npm WARN npm npm does not support Node.js v10.0.0
+npm WARN npm You should probably upgrade to a newer version of node as we
+npm WARN npm can't make any promises that npm will work with this version.
+npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+npm WARN npm You can find the latest version at https://nodejs.org/
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (inbox)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to G:\ethereum_projects\inbox\package.json:
+
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+
+
+G:\ethereum_projects\inbox>
+
+
+G:\ethereum_projects\inbox>cd ..
+
+
+// to ignore node_modules folder in git commit
+G:\ethereum_projects>dir > .gitignore
+
+G:\ethereum_projects>
+
+npm install --global --production windows-build-tools
+
+
+
+NETWORK	DESCRIPTION	URL
+Mainnet	production network	https://mainnet.infura.io/Lfuh9jJqfCoCrHQybdWb
+Ropsten	test network	https://ropsten.infura.io/Lfuh9jJqfCoCrHQybdWb
+INFURAnet	test network	https://infuranet.infura.io/Lfuh9jJqfCoCrHQybdWb
+Kovan	test network	https://kovan.infura.io/Lfuh9jJqfCoCrHQybdWb
+Rinkeby	test network	https://rinkeby.infura.io/Lfuh9jJqfCoCrHQybdWb
+IPFS	gateway	https://ipfs.infura.io
+
+npm install --save truffle-hdwallet-provider
